@@ -2,7 +2,7 @@ name: Run Code
 
 on:
   schedule:
-    - cron: '0 12 * * *' # 设置定时运行，每天 UTC 时间的 00:00 运行
+    - cron: '0 0 * * *' # 设置定时运行，每天 UTC 时间的 00:00 运行
   workflow_dispatch: # 添加手动触发器
 
 jobs:
